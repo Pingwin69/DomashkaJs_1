@@ -1,0 +1,85 @@
+html{
+    width: 99%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.wrapper{
+    background-image: url(/images/travka.jpg);
+    width: auto;
+    height: 100vh;    
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-around;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+}
+.button1 a{
+    color:black;
+    text-decoration: none;
+}
+.button1, .button2, .button3 {
+    width: 350px;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid black 5px;
+    border-radius: 45px;
+    text-shadow: 0px 2px 3px;
+}
+.button1{
+    background-color: lightpink;
+}
+.button2{
+    background-color: lightskyblue;
+}
+.button3{
+    background-color: lightyellow;
+}
+.button3:hover{
+    background-color: rgba(255,255,224,0.8);
+    box-shadow: 1px 2px 40px;
+}
+.button2:hover{
+    background-color: rgba(135, 206,250, 0.6);
+    box-shadow: 1px 2px 40px;
+}
+.button1:hover{
+    background-color: rgba(255,182,193,0.8);
+    box-shadow: 1px 2px 40px;
+}
+a:hover{
+    color: rgba(0, 0,0, 0.8);
+}
+span:hover{
+    color: rgba(0, 0,0, 0.8);
+}
+.Hidden_flex{
+    display: none;
+    width: 100%;
+    height: auto;
+}
+.Hidden_flex img{
+    width: 100%;
+}
+.wrapper.fon{
+    background-image: url(/images/zelen.jpg);
+    width: auto;
+    height: 100vh;    
+}
+.wrapper.fon2{
+    background-image: url(/images/ogon.jpg);
+    width: auto;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
